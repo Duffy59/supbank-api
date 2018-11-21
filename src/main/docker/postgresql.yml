@@ -1,0 +1,11 @@
+version: '2'
+services:
+    supbank-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/supbank/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=supbank
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

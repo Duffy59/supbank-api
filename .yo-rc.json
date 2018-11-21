@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "supbank",
+    "packageName": "com.supinfo.supbank",
+    "packageFolder": "com/supinfo/supbank",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "MTI5MDBkZjA5OGZlYWRkNjBiNzA5Y2M3MjI0ZmFiYzg0ZDA0MGM0NmQzMTlhNTc0ZjgyNGY2NWIxYjg2MmZhYWRjYmJmNmYxYjA4MmY4NDY5MDU4YTU0YzU3ZmY0ZmIyY2M1NWM1NjJjNGYwNTVkMmFhMjk3ZWE5NzliMDRkZDQ=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "Duffy59",
+  "repository-name": "supbank-api"
+}
